@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://mirageui.netlify.app/components/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav nav--shadow">
+            <div class="nav-hero nav__hero__main e-nav-hero cursor-pointer">Sahaj</div>
+
+            <div class="nav-header">
+                <p class="nav__header__items cursor-pointer">
+                    <a class="link" href="/index.html">Clothing</a>
+                </p>
+
+                <p class="nav__header__items cursor-pointer">
+                    <a class="link" href="/index.html">Footwear</a>
+                </p>
+
+                <p class="nav__header__items cursor-pointer">
+                    <a class="link" href="/index.html">Accesories</a>
+                </p>
+
+                <p class="nav__header__items cursor-pointer">
+                    <a class="link" href="/index.html">Watches</a>
+                </p>
+            </div>
+
+            <input class="nav-search" type="text" placeholder="Don't Search here" name="" id="">
+
+            <div class="nav-social">
+                <div class="badge-icon-container social-button cursor-pointer">
+                    <div class="fas fa-shopping-cart badge-icon"></div>
+
+                </div>
+                <div class="badge-icon-container social-button cursor-pointer">
+                    <div class="far fa-heart badge-icon"></div>
+
+                </div>
+
+                <div class="far fa-user badge-icon cursor-pointer social-button"></div>
+
+                <!-- hamburger -->
+                <div class="fas fa-chevron-circle-down hamburger social-button" id="ham-icon"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hamburger links -->
+    <div class="ham-links" id="ham-link">
+        <div class="ham-container nav--shadow">
+            <a class="link " href="/">
+                <div class="badge-icon-container ">
+                    <div class="fas fa-shopping-cart badge-icon"></div>
+                    <div>Cart</div>
+
+                </div>
+            </a>
+            <a class="link" href="/">
+                <div class="badge-icon-container">
+                    <div class="far fa-heart badge-icon"></div>
+                    <div>Favourites</div>
+
+                </div>
+            </a>
+
+            <a class="link" href="/">
+                <div class="badge-icon-container">
+                    <div class="far fa-user badge-icon cursor-pointer"></div>
+                    <div>Profile</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="cart-main">
+        <div class="cart-head">
+            My Cart(1)
+        </div>
+
+        <div class="cart-info">
+            <div class="card card-horizontal">
+                <div class="card-hr-details">
+                    <img src="/assets/card-img-1.jpg" alt="">
+                    <div class="card-badge">New</div>
+
+                    <div class="card-info">
+                        <p class="card-header">
+                            Skin Care Combo
+                        </p>
+                        <p class="card-author">
+                            by The Skin Care Company
+                        </p>
+                        <p class="card-about">
+                            Rs.8000 <s>Rs.10000</s><span style="color: var(--mr-primary-color);">(20%
+                                OFF)</span>
+                            <p class="card-about">
+                                Quantity
+                                <i class="fas fa-plus-circle cursor-pointer"></i>
+                                1
+                                <i class="fas fa-minus-circle cursor-pointer"></i>
+                            </p>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="buttons card-info-margin hr-buttons">
+                    <button class="card-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Remove this item</button>
+                    <button class="card-btn card-btn-icon far fa-heart"></button>
+                    <button class="card-btn card-btn-icon fas fa-share-alt"></button>
+                </div>
+
+            </div>
+
+            <div class="cart-details">
+                <div class="card-head">
+                    PRICE DETAILS
+                </div>
+                <hr>
+                <div class="card-elements">
+                    <p class="cart-text">Price (2 items)</p>
+                    <p class="cart-text">Rs.4999</p>
+                </div>
+
+                <div class="card-elements">
+                    <p class="cart-text">Discount</p>
+                    <p class="cart-text">Rs.500</p>
+                </div>
+
+                <div class="card-elements">
+                    <p class="cart-text">Delivery Charges</p>
+                    <p class="cart-text">Rs.499</p>
+                </div>
+                <hr>
+
+                <div class="card-elements">
+                    <p class="card-head">TOTAL AMOUNT</p>
+                    <p class="card-head">Rs.4998</p>
+                </div>
+                <hr>
+                <p class="cart-text ">You saved Rs.1</p>
+
+                <button class="card-btn">
+
+                    PLACE ORDER
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div>
+            Made with <i class="fas fa-heart"></i> by Aatish
+        </div>
+    </footer>
+
+    <script src="https://mirageui.netlify.app/playground.js"></script>
+
+</body>
+
+</html>
