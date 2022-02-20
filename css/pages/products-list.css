@@ -11,7 +11,7 @@
 .product-sidebar{
     grid-area : pro-side;
     height: 100%;
-    background-color: beige;
+    background-color: var(--beige-color);
     display: flex;
     flex-direction: column;
     padding: 3rem 2rem;
@@ -54,7 +54,7 @@
 }
 
 .card{
-    background-color: white;
+    background-color: var(--white-color);
 }
 
 @media screen and (max-width:400px) {
