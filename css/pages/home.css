@@ -1,24 +1,23 @@
 html,body{
-    overflow-y: auto !important;
-    display: flex !important;
+    overflow-y: auto ;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 /* overwriting  */
 .e-nav-hero{
-    color: var(--e-primary-color) !important;
+    color: var(--e-primary-color);
 }
 
 .nav{
-    background-color: white !important;
-    /* height: 7.8rem; */
+    background-color: white;
 }
 
 .nav__header__items{
     color: var(--gray-text);
     color: var(--dark-gray-text);
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
 }
 
 .nav__header__items:hover{
@@ -36,26 +35,26 @@ html,body{
 }
 
 .nav-social{
-    color: var(--mr-secondary-color) !important;
-    font-size: 2rem !important;
+    color: var(--mr-secondary-color);
+    font-size: 2rem;
 }
 
 .social-button{
-    color: var(--gray-text) !important;
-    font-size: 2rem !important;
+    color: var(--gray-text);
+    font-size: 2rem;
 }
 
 .badge-icon{
-    font-size: 2rem !important;
+    font-size: 2rem;
 }
 
 
 .ham-links{
-    background-color: var(--white-color) !important;
-    /* max-width: 20rem; */
+    background-color: var(--white-color);
     margin-left: auto;
     height: 50rem;
-    padding: 0 !important;
+    padding: 0;
+    color: black;
 }
 
 .ham-container{
@@ -76,30 +75,28 @@ html,body{
 
 @media screen and (max-width: 1024px) {
     .hamburger{
-        display: none !important;
+        display: none;
     }
 
     .nav-header{
-        display: flex !important;
+        display: flex;
     }
 }
 
 @media screen and (max-width: 692px) {
     .nav-header{
-        display: none !important;
+        display: none;
     }
 }
 
 @media  screen and (max-width : 320px){
 
     .hamburger{
-        display: block !important;
-        font-size: 3rem !important;
+        display: block ;
+        font-size: 3rem ;
     }
-
-
     .link{
-        margin: auto !important;
+        margin: auto ;
     }
 
     .badge-icon{
@@ -107,7 +104,7 @@ html,body{
         align-items: center;
         margin: 1rem 0;
         color: var(--gray-text);
-        font-size: 2.5rem !important;
+        font-size: 2.5rem ;
     }
 
     .badge-icon-container{
@@ -117,12 +114,15 @@ html,body{
         justify-content: space-between;
         color: var(--gray-text);
     }
+
+    .dispnone{
+        display: none;
+    }
 }
 
 /* main  */
 .home-main{
     width: 100%;
-    /* height: 100%; */
     padding: 2rem 5rem;
 }
 .large-ad{
@@ -135,16 +135,12 @@ html,body{
 .small-card-container{
     display: flex;
     width: 100%;
-    /* max-height: 40rem; */
     overflow: hidden;
     justify-content: center;
     padding: 5rem 0;
-    /* height: 70%; */
     column-gap: 2rem;
-    /* flex-wrap: wrap; */
     row-gap: 2rem;
     flex-direction: row;
-    /* overflow: hidden; */
 }
 
 .small-card-info{
