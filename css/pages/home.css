@@ -1,0 +1,169 @@
+html,body{
+    overflow-y: auto ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* overwriting  */
+.e-nav-hero{
+    color: var(--e-primary-color);
+}
+
+.nav{
+    background-color: white;
+}
+
+.nav__header__items{
+    color: var(--gray-text);
+    color: var(--dark-gray-text);
+    font-size: 1.5rem;
+}
+
+.nav__header__items:hover{
+    color: var(--e-primary-color);
+}
+
+.nav-search{
+    width: 35rem;
+    padding: 1rem;
+    border: none;
+    background-color: var(--nav-search-bg);
+    font-size: 1.2rem;
+    outline: none;
+    color: var(--dark-gray-text);
+}
+
+.nav-social{
+    color: var(--mr-secondary-color);
+    font-size: 2rem;
+}
+
+.social-button{
+    color: var(--gray-text);
+    font-size: 2rem;
+}
+
+.badge-icon{
+    font-size: 2rem;
+}
+
+
+.ham-links{
+    background-color: var(--white-color);
+    margin-left: auto;
+    height: 50rem;
+    padding: 0;
+    color: var(--dark-gray-text);
+}
+
+.ham-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: stretch;
+}
+
+/* media queries */
+@media screen and (max-width: 1138px) {
+    .nav-search{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hamburger{
+        display: none;
+    }
+
+    .nav-header{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .nav-header{
+        display: none;
+    }
+}
+
+@media  screen and (max-width : 320px){
+
+    .hamburger{
+        display: block ;
+        font-size: 3rem ;
+    }
+    .link{
+        margin: auto ;
+    }
+
+    .badge-icon{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+        color: var(--gray-text);
+        font-size: 2.5rem ;
+    }
+
+    .badge-icon-container{
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+        justify-content: space-between;
+        color: var(--gray-text);
+    }
+
+    .dispnone{
+        display: none;
+    }
+}
+
+/* main  */
+.home-main{
+    width: 100%;
+    padding: 2rem 5rem;
+}
+.large-ad{
+    width: 100%;
+    max-height: 50rem;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.small-card-container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    padding: 5rem 0;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-direction: row;
+}
+
+.small-card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-card-img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2rem;
+}
+
+
+/* footer */
+.main-footer{
+    height: 10rem;
+    background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: auto;
+    padding: 4rem 0;
+}
