@@ -1,7 +1,8 @@
 :root{
     --white-color: white;
-    --liht-gray: gray;
+    --light-gray: gray;
     --gray-text : gray;
     --dark-gray-text:rgb(139, 136, 136);
+    --nav-search-bg:rgb(238, 238, 238);
     --e-primary-color : #8447FF;
 }
