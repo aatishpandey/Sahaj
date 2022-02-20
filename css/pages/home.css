@@ -28,7 +28,7 @@ html,body{
     width: 35rem;
     padding: 1rem;
     border: none;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--nav-search-bg);
     font-size: 1.2rem;
     outline: none;
     color: var(--dark-gray-text);
@@ -54,7 +54,7 @@ html,body{
     margin-left: auto;
     height: 50rem;
     padding: 0;
-    color: black;
+    color: var(--dark-gray-text);
 }
 
 .ham-container{
