@@ -14,11 +14,13 @@
 <body>
     <header>
         <nav class="nav nav--shadow">
-            <div class="nav-hero nav__hero__main e-nav-hero cursor-pointer">Sahaj</div>
+            <a class="link" href="/index.html">
+                <div class="nav-hero nav__hero__main e-nav-hero cursor-pointer">Sahaj</div>
+            </a>
 
             <div class="nav-header">
                 <p class="nav__header__items cursor-pointer">
-                    <a class="link" href="/index.html">Clothing</a>
+                    <a class="link" href="/pages/products.html">Clothing</a>
                 </p>
 
                 <p class="nav__header__items cursor-pointer">
@@ -37,15 +39,30 @@
             <input class="nav-search" type="text" placeholder="Don't Search here" name="" id="">
 
             <div class="nav-social">
-                <div class="badge-icon-container social-button cursor-pointer">
-                    <div class="fas fa-shopping-cart badge-icon"></div>
+                <div class="badge-icon-container social-button cursor-pointer dispnone">
+                    <a href="/pages/login.html">
+                        <button class="btn btn-login">
+                            Login
+                        </button>
+                    </a>
                 </div>
-                <div class="badge-icon-container social-button cursor-pointer">
-                    <div class="far fa-heart badge-icon"></div>
 
+                <div class="badge-icon-container social-button cursor-pointer dispnone">
+                    <a class="link" href="/pages/cart.html">
+                        <div class="fas fa-shopping-cart badge-icon"></div>
+                    </a>
+                </div>
+                <div class="badge-icon-container social-button cursor-pointer dispnone">
+                    <a class="link" href="/pages/wishlist.html">
+                        <div class="far fa-heart badge-icon"></div>
+                    </a>
                 </div>
 
-                <div class="far fa-user badge-icon cursor-pointer social-button"></div>
+                <div class="badge-icon-container social-button cursor-pointer dispnone">
+                    <a class="/" href="/">
+                        <div class="far fa-user badge-icon "></div>
+                    </a>
+                </div>
 
                 <!-- hamburger -->
                 <div class="fas fa-chevron-circle-down hamburger social-button" id="ham-icon"></div>

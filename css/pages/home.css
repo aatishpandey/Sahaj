@@ -51,7 +51,6 @@ html,body{
 
 .ham-links{
     background-color: var(--white-color);
-    margin-left: auto;
     height: 50rem;
     padding: 0;
     color: var(--dark-gray-text);
@@ -166,4 +165,8 @@ html,body{
     font-size: 2rem;
     margin-top: auto;
     padding: 4rem 0;
+}
+
+.btn-login{
+    max-width: 12rem;
 }

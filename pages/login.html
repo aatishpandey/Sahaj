@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahaj</title>
+    <title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://mirageui.netlify.app/components/styles.css">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-
 <body>
     <header>
         <nav class="nav nav--shadow">
@@ -77,12 +75,14 @@
                 <div class="badge-icon-container ">
                     <div class="fas fa-shopping-cart badge-icon"></div>
                     <div>Cart</div>
+                    
                 </div>
             </a>
             <a class="link" href="/">
                 <div class="badge-icon-container">
                     <div class="far fa-heart badge-icon"></div>
                     <div>Favourites</div>
+                    
                 </div>
             </a>
 
@@ -95,24 +95,35 @@
         </div>
     </div>
 
-    <div class="home-main">
-        <div class="large-ad ">
-            <img class="img-res" src="/assets/large-ad.jpg" alt="">
-        </div>
+    <div class="form-main">
+        <div class="cart-head">Login</div>
+        <form class="form nav--shadow">
+            <label for="email" class="card-head">
+                Enter Your Email
+            </label>
+            <input class="form-input"
+            type="email" name="" id="email">
+            <label for="pass" class="card-head">
+                Enter Your Password
+            </label>
+            <input class="form-input" type="password" name="" id="pass">
 
-        <div class="small-card-container">
-            <div class="small-card">
-                <img class="small-card-img" src="/assets/sm-ad-4.jpg" alt="">
+            <div class="forgot-pass">
+                <label for="remem" class="remem-fl">
+                    <input type="checkbox" name="" id="remem">
+                    <p class="cart-text">Remember Me?</p> 
+                </label>
+                <div class="cart-text">Forgot Password</div>
             </div>
 
-            <div class="small-card">
-                <img class="small-card-img" src="/assets/sm-ad-2.jpg" alt="">
-            </div>
+            <button class="btn btn-primary">
+                Login
+            </button>
 
-            <div class="small-card">
-                <img class="small-card-img" src="/assets/sm-ad-3.jpg" alt="">
-            </div>
-        </div>
+            <a href="/pages/signup.html">
+                <div class="cart-text cursor-pointer ">Create New Account?</div>
+            </a>
+        </form>
     </div>
 
     <footer class="main-footer">
@@ -121,8 +132,5 @@
         </div>
     </footer>
 
-    <script src="https://mirageui.netlify.app/playground.js"></script>
-
 </body>
-
 </html>
